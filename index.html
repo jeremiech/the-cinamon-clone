@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINNAMON</title>
+    <link rel="stylesheet" href="./image/image (18).webp" type="image/x-icon">
+      <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities{
+           .nav-item{
+            @apply relative;
+
+           }
+           .nav-item:hover{
+            @apply text-indigo-600
+
+           }
+      
+       li,label{
+        @apply py-2;
+       }
+
+       .nav-item::after{
+        @apply content-[''] bg-indigo-600 rounded-full -bottom-2 left-0 absolute h-2 w-[0%]
+       }
+       .nav-item:hover::after{
+        @apply w-[20%]  duration-300
+       }
+
+
+        }
+    </style>
+<body >
+    <div class="sticky top-0 xl:bg-white left-0 right-0 px-32">
+        <nav class=" w-full h-20 ">
+            <img class="xl:float-left w-40 py-5  hover:animate-pulse" src="./image/cinamon.svg" alt="the cinamon image">
+            <ul class="capitalize py-5 font-semibold xl:bg-transparent relative xl:float-right flex xl:flex-row gap-5">
+                <li class="nav-item xl:text-black"><a href="#">Projects</a></li>
+                <li class="nav-item xl:text-black" ><a href="#">Services</a></li>
+                <li class="nav-item xl:text-black"><a href="#">About Us</a></li>
+                <li class="nav-item xl:text-black"><a href="#">Careers</a></li>
+                <li class="nav-item xl:text-black"><a href="#">Blog</a></li>
+                <label class="inline-block text-black text-3xl px-8 py-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                      </svg>
+                      
+                </label>
+                <button class="inline-block text-white px-8 py-3 bg-indigo-600 hover:bg-white hover:text-indigo-600 hover:border hover:border-indigo-600">Contact Us</button>
+    
+            </ul>
+        </nav>
+      </div>
+    <div class="px-32">
+
+  <div class="bg-[url('./image/some-black-img.svg.jpg')] bg-center bg-cover relative w-full h-screen">
+<section class="w-[100%]">
+    <h1 class="text-gray-200 font-sans font-bold xl:inline-block xl:py-3 text-7xl">
+        Results focused design & development agency.
+    </h1> 
+    
+</section>
+    <p class="xl:text-gray-300 text-xl font-semibold">
+        Extend your team with our high performing specialists or hire us <br class="hidden xl:inline"> to shape your product from scratch. Either way, we’ll get your <br class="hidden xl:inline">product off the ground and build a momentum for your success.
+    </p>
+    <a href="#work" class="text-gray-200 uppercase absolute bottom-20 -rotate-90">
+        
+<span class="animate-bounce">&#8592;</span>
+          
+    see our work
+    </a>
+
+    <img class="absolute right-20 bottom-48 shaddow-lg hover:cursor-pointer shadow-indigo-600 bottom-0 w-40" src="./image/move.webp" alt="">
+ </div>
+ <div id="work" class=" xl:h-screen bg-amber-400 xl:mt-32 flex justify-center items-center">
+ <img  class="hover:scale-110 duration-500"src="./image/tripple-view.webp" alt="the tripple essence">
+ </div>
+ <div class="xl:h-auto xl:w-full ">
+    <p class="text-gray-500 xl:block uppercase font-bold text-sm pt-8 -tracking-2">IOS development</p>
+    <a  href="#" class="xl:block pt-8 text-4xl font-bold text-gray-700 hover:text-indigo-600 xl:duration-250">Smart Build: Maximize <br class="hidden xl:inline"> your field survey </a>
+    <p class="text-gray-400 pt-8">An application for construction management. Make manipulation over construction map <br class="hidden xl:inline"> and export report as a PDF document</p>
+<section class=" mt-32 w-full h-[500px]  flex xl:justify-center items-center bg-emerald-300">
+    <img class="hover:cursor-pointer hover:scale-110 duration-700" src="./image/small-grid-view.webp" alt="">
+</section>
+
+ </div>
+<div class="xl:w-full xl:h-auto">
+   <div class="flex xl:gap-7 xl:flex-row">
+    <p class="text-gray-500 xl:block uppercase font-bold text-sm pt-8 -tracking-2">PRODUCT DESIGN</p>
+    <p class="text-gray-500 xl:block uppercase font-bold text-sm pt-8 -tracking-2">QUALITY ASSURANCE</p>
+   </div>
+
+    <a  href="#" class="xl:block pt-8 text-4xl font-bold text-gray-700 hover:text-indigo-600 xl:duration-250">Corrily: Optimize prices <br class="hidden xl:inline"> to maximize revenue </a>
+
+    <p class="text-gray-400 pt-8">Corrily tailors your prices and discounts to the needs of different user segments in order to <br class="hidden xl:inline"> increase your revenue. Cinnamon was tasked with creating a new visual identity for Corrily
+        <br class="hidden xl:inline">and incorporating a fresh, and stunning website redesign.
+    </p>
+    <div class="mt-32 bg-violet-900 flex xl:justify-center xl:items-center ">
+        <img class="hover:cursor-pointer hover:scale-110 duration-700" src="./image/dif-view.webp" alt="finance web">
+     </div>
+</div>
+ <div class="xl:h-auto xl:w-full">
+    <div class="flex xl:gap-7 xl:flex-row">
+        <p class="text-gray-500 xl:block uppercase font-bold text-sm pt-8 -tracking-2">PRODUCT DESIGN</p>
+        <p class="text-gray-500 xl:block uppercase font-bold text-sm pt-8 -tracking-2">WEB DEVELOPMENT</p>
+       </div>
+    
+        <a  href="#" class="xl:block pt-8 text-4xl font-bold text-gray-700 hover:text-indigo-600 xl:duration-250">Fiona: Engage & <br class="hidden xl:inline"> Decide</a>
+    
+        <p class="text-gray-400 pt-8">Fiona is a fintech consumer-facing website that enables users to search for financial <br class="hidden xl:inline"> products, discover them, and receive personalized recommendations.
+        </p>
+ </div>
+
+</div>
+<div class="w-full grid xl:grid-cols-5 h-auto bg-[url('./image/some-black-img.svg.jpg')] mt-32 py-32 px-32">
+    <div class="xl:col-span-2">
+        <p class="text-white font-bold text-5xl">Our services</p>
+    </div>
+    <div class="grid xl:col-span-3 xl:grid-cols-2 gap-y-10">
+        <section class="w-[250px] bg-transparent" >            <img class="block" src="./image/k.jpg" alt="k-image">
+            <h2 class="block font-bold text-2xl text-white"> Product design</h2>
+            <p class="text-white text-lg pt-4">Producing, prototyping and testing sketches, 
+                high-fidelity wireframes and the final UI
+                 is a process that results in intuitive and 
+                 impactful design that’s easy on the eyes</p>
+        </section>
+       
+        <section class="w-[250px] bg-transparent" >
+            <img class="block" src="./image/eclipse.jpg" alt="eclpse-image">
+            <h2 class="block font-bold text-2xl text-white"> Development</h2>
+            <p class="text-white text-lg pt-4">By selecting the befitting tech stack
+                 and architecture for the deliverable in question, 
+                we build out the product until it's a fully-fledged digital solution.</p>
+        </section>
+        <section class="w-[250px] bg-transparent" >
+            <img class="block" src="./image/close-diamond.jpeg" alt="close diamond-image">
+            <h2 class="block font-bold text-2xl text-white"> Quality assurance</h2>
+            <p class="text-white text-lg pt-4">Our QA engineering team makes your product bug-free, 
+                bulletproof and performance-driven through both automatic and manual testing.s</p>
+        </section>
+        <section class="w-[250px] bg-transparent" >
+            <img class="block" src="./image/cos-triangle.jpg" alt="level-image">
+            <h2 class="block font-bold text-2xl text-white"> Marketing & growth</h2>
+            <p class="text-white text-lg pt-4">By understanding the mechanics of digital marketing, we make sure to put your product,
+                 at the right time, in front of the right people.</p>
+        </section>
+        <div class="w-[250px] mt-10">
+            <a href="#" class="inline-block hover:animate-pulse px-7 py-2 text-white  bg-indigo-600 hover:bg-white hover:text-indigo-600 hover:border hover:border-indigo-600">see our services</a>
+
+        </div>
+
+    </div>
+</div>
+<!-- <div class="xl:w-full h-auto xl:ml-32 relative">
+
+
+</div> -->
+</body>
+</html>
